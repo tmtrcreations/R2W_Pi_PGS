@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:R2W_Pi_PGS-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
 encoding utf-8
-Sheet 2 2
+Sheet 3 3
 Title ""
 Date ""
 Rev ""
@@ -529,7 +530,7 @@ $EndComp
 Wire Wire Line
 	2800 4425 2800 4530
 Text GLabel 2800 4780 3    39   Input ~ 0
-GND
+1V8
 Wire Wire Line
 	2800 4780 2800 4730
 Wire Wire Line
@@ -1238,4 +1239,116 @@ Wire Wire Line
 	6465 8325 6465 8215
 Text Notes 6805 7485 0    39   ~ 0
 uSD Card Slot
+Text GLabel 1405 2325 0    39   Input ~ 0
+B7
+Wire Wire Line
+	1405 2325 1550 2325
+Text GLabel 1405 2250 0    39   Input ~ 0
+B6
+Text GLabel 1405 2100 0    39   Input ~ 0
+B5
+Text GLabel 1405 2025 0    39   Input ~ 0
+B4
+Text GLabel 1405 1875 0    39   Input ~ 0
+B3
+Text GLabel 1405 1800 0    39   Input ~ 0
+B2
+Text GLabel 1405 1650 0    39   Input ~ 0
+B1
+Text GLabel 1405 1575 0    39   Input ~ 0
+B0
+Text GLabel 1405 1425 0    39   Input ~ 0
+HSYNC
+Text GLabel 1405 1350 0    39   Input ~ 0
+VSYNC
+Text GLabel 1405 1200 0    39   Input ~ 0
+DE
+Text GLabel 1405 1125 0    39   Input ~ 0
+ODCK
+Wire Wire Line
+	1405 1125 1550 1125
+Wire Wire Line
+	1405 1200 1550 1200
+Wire Wire Line
+	1405 1350 1550 1350
+Wire Wire Line
+	1405 1425 1550 1425
+Wire Wire Line
+	1405 1575 1550 1575
+Wire Wire Line
+	1405 1650 1550 1650
+Wire Wire Line
+	1405 1800 1550 1800
+Wire Wire Line
+	1405 1875 1550 1875
+Wire Wire Line
+	1405 2025 1550 2025
+Wire Wire Line
+	1405 2100 1550 2100
+Wire Wire Line
+	1405 2250 1550 2250
+Text GLabel 1405 2850 0    39   Input ~ 0
+G0
+Text GLabel 1405 2925 0    39   Input ~ 0
+G1
+Text GLabel 1405 3075 0    39   Input ~ 0
+G2
+Text GLabel 1405 3150 0    39   Input ~ 0
+G3
+Text GLabel 1405 3300 0    39   Input ~ 0
+G4
+Text GLabel 1405 3375 0    39   Input ~ 0
+G5
+Text GLabel 1405 3525 0    39   Input ~ 0
+G6
+Text GLabel 1405 3600 0    39   Input ~ 0
+G7
+Text GLabel 1405 3750 0    39   Input ~ 0
+R0
+Text GLabel 1405 3825 0    39   Input ~ 0
+R1
+Text GLabel 1405 3975 0    39   Input ~ 0
+R2
+Text GLabel 1405 4050 0    39   Input ~ 0
+R3
+Text GLabel 1405 4200 0    39   Input ~ 0
+R4
+Text GLabel 1405 4275 0    39   Input ~ 0
+R5
+Text GLabel 1405 4425 0    39   Input ~ 0
+R6
+Text GLabel 1405 4500 0    39   Input ~ 0
+R7
+Wire Wire Line
+	1405 4500 1550 4500
+Wire Wire Line
+	1405 4425 1550 4425
+Wire Wire Line
+	1405 4275 1550 4275
+Wire Wire Line
+	1405 4200 1550 4200
+Wire Wire Line
+	1405 4050 1550 4050
+Wire Wire Line
+	1405 3975 1550 3975
+Wire Wire Line
+	1405 3825 1550 3825
+Wire Wire Line
+	1405 3750 1550 3750
+Wire Wire Line
+	1405 3600 1550 3600
+Wire Wire Line
+	1405 3525 1550 3525
+Wire Wire Line
+	1405 3375 1550 3375
+Wire Wire Line
+	1405 3300 1550 3300
+Wire Wire Line
+	1405 3150 1550 3150
+Wire Wire Line
+	1405 3075 1550 3075
+Wire Wire Line
+	1405 2925 1550 2925
+Wire Wire Line
+	1405 2850 1550 2850
 $EndSCHEMATC
